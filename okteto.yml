@@ -1,0 +1,7 @@
+build:
+  service:
+    context: .
+    dockerfile: ./Dockerfile
+deploy:
+  compose:
+    - file: ./docker-compose.yml

@@ -1,0 +1,4 @@
+services:
+  service:
+    image: ${OKTETO_BUILD_SERVICE_IMAGE}
+    command: sleep 100
